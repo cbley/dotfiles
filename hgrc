@@ -1,3 +1,3 @@
 [ui]
 username=Christopher Bley <chrisbley@gmail.com>
-ignore=/Users/chris/.hgignore_global
+ignore=~/.hgignore_global
