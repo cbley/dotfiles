@@ -1,0 +1,22 @@
+[ui]
+username = Christopher Bley <chrisbley@gmail.com>
+ssh="C:\Apps\plink.exe" -C -batch -ssh -i "C:\Users\cbley\Dropbox\GeoDecisions\key.ppk"
+
+
+[extensions]
+extdiff =
+purge = 
+
+[extdiff]
+cmd.bcomp = C:\Program Files (x86)\Beyond Compare 2\BC2.exe
+opts.bcomp = /ro
+
+[merge-tools]
+bcomp.executable = C:\Program Files (x86)\Beyond Compare 2\BC2.exe
+bcomp.args = $local $other $base $output
+bcomp.priority = 1
+bcomp.premerge = True
+bcomp.gui = True
+
+[ui]
+merge = bcomp
