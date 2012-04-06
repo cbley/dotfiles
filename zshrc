@@ -16,3 +16,4 @@ export TMP=/tmp
 export PATH=/Users/chris/.venvburrito/bin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/python:/Users/chris/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/chris/.rvm/bin
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+bindkey -v
