@@ -17,3 +17,9 @@ export PATH=/Users/chris/.venvburrito/bin:/usr/local/mysql/bin:/usr/local/sbin:/
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 bindkey -v
+
+# startup virtualenv-burrito
+if [ -f $HOME/.venvburrito/startup.sh ]; then
+    source $HOME/.venvburrito/startup.sh
+fi
+
