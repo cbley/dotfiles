@@ -31,9 +31,6 @@
 [submodule "vim/bundle/gundo.vim"]
 	path = vim/bundle/gundo.vim
 	url = git://github.com/sjl/gundo.vim.git
-[submodule "vim/bundle/vim-smartinput"]
-	path = vim/bundle/vim-smartinput
-	url = git://github.com/kana/vim-smartinput.git
 [submodule "vim/bundle/vim-colors-colarized"]
 	path = vim/bundle/vim-colors-colarized
 	url = git://github.com/altercation/vim-colors-solarized.git
@@ -43,3 +40,6 @@
 [submodule "vim/bundle/vim-colorschemes"]
 	path = vim/bundle/vim-colorschemes
 	url = git://github.com/flazz/vim-colorschemes.git
+[submodule "vim/bundle/vim-autoclose"]
+	path = vim/bundle/vim-autoclose
+	url = git://github.com/Townk/vim-autoclose.git
