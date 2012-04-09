@@ -129,11 +129,14 @@ map <leader>g :GundoToggle<CR>
 " remove trailing whitespace on write for py,js
 autocmd BufWritePre *.py,*.js :call <SID>StripTrailingWhitespaces()
 
+" don't change working directory when opening a new file
+let g:ctrlp_working_path_mode = 0
+"
 " crtlp
 let g:ctrlp_custom_ignore = {
-	\ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.gdb$',
-	\ 'file': '\.exe$\|\.so$\|\.dll$|\.pyc$|\.tbx$',
-	\ }
+    \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.gdb$',
+    \ 'file': '\.exe$\|\.so$\|\.dll$|\.pyc$|\.tbx$',
+    \ }
 
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $REALVIMRC<CR>
