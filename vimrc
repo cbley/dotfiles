@@ -80,6 +80,9 @@ map <c-h> <c-w>h
 nmap <leader>c :copen<CR>
 nmap <leader>cc :cclose<CR>
 
+" save file keymap
+nmap <leader>s :w<CR>
+
 ""Syntax highlighting and validation
 syntax on
 filetype on
