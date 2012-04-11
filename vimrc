@@ -117,6 +117,9 @@ function! RenameFile()
 endfunction
 map <leader>n :call RenameFile()<cr>
 
+" turn off autoclose mapping
+map <leader>a :AutoCloseToggle<cr>
+
 " clear the search buffer when hitting return
 :nnoremap <CR> :nohlsearch<cr>
 
