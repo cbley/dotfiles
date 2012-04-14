@@ -1,0 +1,10 @@
+######
+# shell config local to hyrdra
+######
+
+# update dotfiles repo on login
+cd /home/chris/.dotfiles && \
+    git pull && \
+    git submodule init && \
+    git submodule update && \
+    cd -
