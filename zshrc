@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="frisk"
 
-unsetopt correct_all
+_nsetopt correctall
 
 . ~/.zsh/aliases.zsh
 
