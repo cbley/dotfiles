@@ -5,6 +5,6 @@
 # update dotfiles repo on login
 cd /home/chris/.dotfiles && \
     git pull && \
-    git submodule init && \
+    git submodule init > /dev/null && \
     git submodule update && \
     cd -
