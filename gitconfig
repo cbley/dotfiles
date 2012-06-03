@@ -1,38 +1,38 @@
-
+# vim: ft=gitconfig
 [core]
-    quotepath = false
-    excludesfile = ~/.gitexcludes
-    editor = vim
-    autocrlf = input
+	quotepath = false
+	excludesfile = ~/.gitexcludes
+	editor = vim
+	autocrlf = input
 [user]
-    name = Christopher Bley
-    email = chrisbley@gmail.com
+	name = Christopher Bley
+	email = chrisbley@gmail.com
 [color]
-    ui = true
+	ui = true
 [alias]
-    st = status
-    ci = commit
-    cia = commit --amend
-    co = checkout
-    br = branch
-    sb = show-branch
-    cp = cherry-pick
-    staged = diff --cached
-    rb = rebase
-    rbc = rebase --continue
-    rbs = rebase --skip
-    rl = reflog
-    rs = remote show
-    rt = remote
-    ru = remote update
-    rp = remote prune
-    sm = submodule
-    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	st = status
+	ci = commit
+	cia = commit --amend
+	co = checkout
+	br = branch
+	sb = show-branch
+	cp = cherry-pick
+	staged = diff --cached
+	rb = rebase
+	rbc = rebase --continue
+	rbs = rebase --skip
+	rl = reflog
+	rs = remote show
+	rt = remote
+	ru = remote update
+	rp = remote prune
+	sm = submodule
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	d = difftool
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
