@@ -1,4 +1,3 @@
-" setup for pathogen
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -134,6 +133,9 @@ map <leader>g :GundoToggle<CR>
 
 " remove trailing whitespace on write for py,js
 autocmd BufWritePre *.py,*.js :call <SID>StripTrailingWhitespaces()
+
+" use hard tabs in gitconfig files
+autocmd FileType gitconfig setl noexpandtab ts=4
 
 " don't change working directory when opening a new file
 let g:ctrlp_working_path_mode = 0
