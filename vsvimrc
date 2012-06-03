@@ -1,0 +1,21 @@
+
+let mapleader=","
+
+" searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+" yanks go on clipboard
+set clipboard+=unamed
+
+" save file keymap
+nmap <leader>s :w<CR>
+
+" clear the search buffer when hitting return
+:nnoremap <CR> :nohlsearch<cr>
