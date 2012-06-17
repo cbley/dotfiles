@@ -149,3 +149,6 @@ let g:ctrlp_custom_ignore = {
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $REALVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
+
+runtime macros/matchit.vim
