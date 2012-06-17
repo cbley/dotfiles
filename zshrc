@@ -3,13 +3,12 @@ ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="frisk"
 
-unsetopt correctall
-
 . ~/.zsh/aliases.zsh
 
 plugins=(git bundler brew mercurial osx pip rvm)
 
 source $ZSH/oh-my-zsh.sh
+unsetopt correct_all
 
 # Customize to your needs...
 export TEMP=/tmp
