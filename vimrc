@@ -150,5 +150,7 @@ let g:ctrlp_custom_ignore = {
 nmap <silent> <leader>ev :e $REALVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
+" Settings for VimClojure
+let vimclojure#HighlightBuiltins=1   " Highlight Clojure's builtins
 
 runtime macros/matchit.vim
