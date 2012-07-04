@@ -137,6 +137,9 @@ autocmd BufWritePre *.py,*.js :call <SID>StripTrailingWhitespaces()
 " use hard tabs in gitconfig files
 autocmd FileType gitconfig setl noexpandtab ts=4
 
+" ruby specific whitespace settings
+autocmd FileType ruby,eruby,yaml setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+
 " don't change working directory when opening a new file
 let g:ctrlp_working_path_mode = 0
 "
