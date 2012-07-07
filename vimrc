@@ -156,4 +156,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 " Settings for VimClojure
 let vimclojure#HighlightBuiltins=1   " Highlight Clojure's builtins
 
+" don't autoclose apostrophes in lisps
+autocmd FileType lisp,clojure let b:AutoClosePairs = AutoClose#DefaultPairsModified("", "'")
+
 runtime macros/matchit.vim
