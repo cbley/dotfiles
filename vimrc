@@ -53,11 +53,18 @@ if has('autocmd')
 endif
 
 " searching
+nnoremap / /\v
+vnoremap / /\v
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
 set showmatch
+nnoremap <tab> %
+vnoremap <tab> %
+
+" clear the search buffer when hitting return
+nnoremap <CR> :nohlsearch<cr>
 
 " Editing
 "code folding
@@ -125,9 +132,6 @@ map <leader>n :call RenameFile()<cr>
 
 " turn off autoclose mapping
 map <leader>a :AutoCloseToggle<cr>
-
-" clear the search buffer when hitting return
-:nnoremap <CR> :nohlsearch<cr>
 
 " map strip trailing whitespace to F5
 :nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
