@@ -28,7 +28,7 @@ set wildmenu
 set wildmode=longest,full
 set history=1000
 set undolevels=1000
-
+set relativenumber
 
 " whitespace
 set nowrap
