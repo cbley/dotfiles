@@ -30,6 +30,10 @@ set history=1000
 set undolevels=1000
 set relativenumber
 
+" persistant undos
+set undofile
+set undodir=$TMP
+
 " whitespace
 set nowrap
 set tabstop=4
