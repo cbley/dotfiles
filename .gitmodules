@@ -58,3 +58,6 @@
 [submodule "vim/bundle/tslime"]
 	path = vim/bundle/tslime
 	url = git@github.com:cbley/tslime.vim.git
+[submodule "vim/bundle/vim-scala"]
+	path = vim/bundle/vim-scala
+	url = git://github.com/derekwyatt/vim-scala.git
