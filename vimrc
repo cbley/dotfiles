@@ -172,7 +172,7 @@ let g:ctrlp_custom_ignore = {
     \ }
 
 " Quickly edit/reload the vimrc file
-nmap <silent> <leader>ev :e $REALVIMRC<CR>
+nmap <silent> <leader>ev <C-w><C-v><C-l>:e $REALVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " Settings for VimClojure
