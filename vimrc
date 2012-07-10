@@ -67,6 +67,11 @@ vnoremap <tab> %
 " clear the search buffer when hitting return
 nnoremap <CR> :nohlsearch<cr>
 
+" prevent fat fingering <f1> when reaching for <esc>
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+
 " Editing
 "code folding
 set foldmethod=indent
