@@ -77,6 +77,9 @@ nnoremap ; :
 " re-hardwrap paragraph
 nnoremap <leader>q gqip
 
+" select text that was just pasted
+nnoremap <leader>v V`]
+
 " Editing
 "code folding
 set foldmethod=indent
