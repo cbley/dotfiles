@@ -11,6 +11,7 @@ let mapleader=","
 " Basic editor settings
 set background=dark
 colorscheme solarized
+set colorcolumn=80
 set backupdir=$TMP
 set directory=$TMP
 set nocompatible
