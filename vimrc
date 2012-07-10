@@ -74,6 +74,9 @@ vnoremap <F1> <ESC>
 
 nnoremap ; :
 
+" re-hardwrap paragraph
+nnoremap <leader>q gqip
+
 " Editing
 "code folding
 set foldmethod=indent
