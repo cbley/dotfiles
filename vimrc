@@ -142,7 +142,7 @@ map <leader>n :call RenameFile()<cr>
 map <leader>a :AutoCloseToggle<cr>
 
 " map strip trailing whitespace to F5
-:nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
+nnoremap <silent> <leader>W :call <SID>StripTrailingWhitespaces()<CR>
 
 " GundoToggle
 map <leader>g :GundoToggle<CR>
