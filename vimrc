@@ -8,6 +8,9 @@ set guioptions-=T
 " change leader key
 let mapleader=","
 
+" quicker escaping
+inoremap jj <ESC>
+
 " Basic editor settings
 set background=dark
 colorscheme solarized
