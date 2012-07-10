@@ -1,0 +1,9 @@
+######
+# shell config local to arrow
+######
+export TEMP=/tmp
+export TMP=/tmp
+
+export PATH=/Users/chris/.venvburrito/bin:/Users/chris/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/Users/chris/.rvm/bin
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
