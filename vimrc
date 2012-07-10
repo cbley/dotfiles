@@ -97,6 +97,9 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
+" quick window vertical window split
+nnoremap <leader>w <C-w>v<C-w>l
+
 " window split key maps
 map <c-j> <c-w>j
 map <c-k> <c-w>k
