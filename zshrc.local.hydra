@@ -2,6 +2,8 @@
 # shell config local to hyrdra
 ######
 
+export TMP="/tmp"
+
 # update dotfiles repo on login
 cd /home/chris/.dotfiles && \
     git pull && \
