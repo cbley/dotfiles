@@ -6,8 +6,6 @@ export TMP=/tmp
 
 PATH=/Users/chris/.venvburrito/bin:/Users/chris/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/Users/chris/.rvm/bin
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS/
-PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 export PATH
 
 export MYVIMRC=/Users/chris/.dotfiles/vimrc
