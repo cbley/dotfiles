@@ -6,7 +6,7 @@ files = Dir['*'] - ["locals", "deploy.rb"]
 home = ENV["HOME"]
 
 def exists?(path)
-  File.exists?(path)or File.symlink?(path)or File.directory?(path)
+  File.exists?(path) or File.symlink?(path) or File.directory?(path)
 end
 
 def recreate_symlink(input, output)

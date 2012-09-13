@@ -4,6 +4,8 @@
 
 export TMP="/tmp"
 
+alias uu='sudo aptitude update && sudo aptitude upgrade'
+
 # update dotfiles repo on login
 cd /home/chris/.dotfiles && \
     git pull && \
