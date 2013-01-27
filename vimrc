@@ -144,7 +144,16 @@ function! RenameFile()
         redraw!
     endif
 endfunction
+
 map <leader>n :call RenameFile()<cr>
+
+" fix colors for terms with only 256 colors
+function! FixColors()
+    let g:solarized_termcolors=256
+    colorscheme solarized
+endfunction
+
+map <leader>c :call FixColors()<cr>
 
 " turn off autoclose mapping
 map <leader>a :AutoCloseToggle<cr>
