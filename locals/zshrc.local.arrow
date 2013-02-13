@@ -4,11 +4,23 @@
 export TEMP=/tmp
 export TMP=/tmp
 
+export GOROOT=/usr/local/Cellar/go/1.0.2
+
 PATH=/Users/chris/.venvburrito/bin:/Users/chris/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/Users/chris/.rvm/bin
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS/
+PATH=$PATH:/Users/chris/Development/adt-bundle-mac/sdk/platform-tools:/Users/chris/Development/adt-bundle-mac/sdk/tools
+PATH=$PATH:/Applications/VirtualBox.app/Contents/MacOS
 PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
+PATH=$PATH:$GOROOT/bin
 export PATH
 
 export MYVIMRC=/Users/chris/.dotfiles/vimrc
 export REALVIMRC=/Users/chris/.dotfiles/vimrc
+
+# load RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" ]]
+[[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh" # This loads NVM
+
+# startup virtualenv-burrito
+if [ -f $HOME/.venvburrito/startup.sh ]; then
+    source $HOME/.venvburrito/startup.sh
+fi
