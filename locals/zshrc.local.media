@@ -1,0 +1,24 @@
+######
+# shell config local to media
+######
+
+export TEMP=/tmp
+export TMP=/tmp
+
+export MYVIMRC=/Users/chris/.dotfiles/vimrc
+export REALVIMRC=/Users/chris/.dotfiles/vimrc
+
+alias uu='sudo apt-get update; sudo apt-get upgrade'
+alias sagi='yes | sudo apt-get install'
+
+# update dotfiles repo on login
+cd /home/chris/.dotfiles && \
+    git pull && \
+    git submodule init > /dev/null && \
+    git submodule update && \
+    cd -
+
+# startup virtualenv-burrito
+if [ -f $HOME/.venvburrito/startup.sh ]; then
+    source $HOME/.venvburrito/startup.sh
+fi
