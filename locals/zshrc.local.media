@@ -4,12 +4,13 @@
 
 export TEMP=/tmp
 export TMP=/tmp
-
+export PATH="/home/chris/bin:$PATH"
 export MYVIMRC=/Users/chris/.dotfiles/vimrc
 export REALVIMRC=/Users/chris/.dotfiles/vimrc
 
 alias uu='sudo apt-get update; sudo apt-get upgrade'
 alias sagi='yes | sudo apt-get install'
+alias acs='apt-cache search'
 
 # update dotfiles repo on login
 cd /home/chris/.dotfiles && \
