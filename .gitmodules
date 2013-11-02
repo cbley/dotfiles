@@ -79,3 +79,6 @@
 [submodule "vim/bundle/vim-textobj-entire"]
 	path = vim/bundle/vim-textobj-entire
 	url = git://github.com/kana/vim-textobj-entire.git
+[submodule "vim/bundle/django.vim"]
+	path = vim/bundle/django.vim
+	url = https://github.com/vim-scripts/django.vim.git
