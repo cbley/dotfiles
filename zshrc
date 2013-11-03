@@ -5,7 +5,7 @@ ZSH_THEME="gianu"
 
 . ~/.zsh/aliases.zsh
 
-plugins=(git bundler brew mercurial osx pip rvm)
+plugins=(git brew mercurial pip)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
