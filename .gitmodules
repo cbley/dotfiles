@@ -82,3 +82,6 @@
 [submodule "vim/bundle/django.vim"]
 	path = vim/bundle/django.vim
 	url = https://github.com/vim-scripts/django.vim.git
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
