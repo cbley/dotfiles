@@ -8,5 +8,6 @@ alias tl="if tmux has; then tmux attach; else tmux new; fi"
 alias c="clear"
 alias g="git"
 alias gsu="git submodule init && git submodule update"
+alias gsp="git submodule foreach git pull origin master"
 alias gfv="git fetch origin -v; git fetch upstream -v"
 
